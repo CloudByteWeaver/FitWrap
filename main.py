@@ -1,10 +1,10 @@
-import sys  # Only needed for access to command line arguments
+import sys
 from PySide6.QtWidgets import QApplication
 from app.widgets.login_window import LoginWindow
 
 
 if __name__ == '__main__':
-    app = QApplication(sys.argv)  # Pass in sys.argv to allow command line arguments or if not just []
+    app = QApplication([])
 
     window = LoginWindow()
 
@@ -14,5 +14,4 @@ if __name__ == '__main__':
     else:
         window.show()
 
-    # app.exec()
     sys.exit(app.exec())
