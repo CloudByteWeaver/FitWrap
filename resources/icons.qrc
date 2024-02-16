@@ -1,0 +1,70 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icons/flip-backward-svgrepo-com.svg</file>
+    <file>icons/default-activity-icon.png</file>
+    <file>icons/clock-lines-svgrepo-com.svg</file>
+    <file>icons/clock-three-svgrepo-com.svg</file>
+    <file>icons/road-svgrepo-com.svg</file>
+    <file>icons/running-svgrepo-com.svg</file>
+    <file>icons/folder-svgrepo-com.svg</file>
+    <file>icons/arrow-down-svgrepo-com.svg</file>
+    <file>icons/default_device_icon.jpg</file>
+    <file>icons/log-out-svgrepo-com.svg</file>
+    <file>icons/logo2.png</file>
+    <file>icons/faq-svgrepo-com.svg</file>
+    <file>icons/logo.png</file>
+    <file>icons/code-compare-svgrepo-com.svg</file>
+    <file>icons/watch-add-smartwatch-svgrepo-com.svg</file>
+    <file>icons/smartwatch-1-svgrepo-com.svg</file>
+    <file>icons/file-plus-alt-1-svgrepo-com.svg</file>
+    <file>icons/house-03-svgrepo-com.svg</file>
+    <file>icons/align-left-svgrepo-com.svg</file>
+    <file>icons/arrow-decrease-svgrepo-com.svg</file>
+    <file>icons/arrow-income-svgrepo-com.svg</file>
+    <file>icons/arrow-increase-svgrepo-com.svg</file>
+    <file>icons/arrow-prev-svgrepo-com.svg</file>
+    <file>icons/arrow-right-from-bracket-svgrepo-com.svg</file>
+    <file>icons/arrow-up-right-from-square-svgrepo-com.svg</file>
+    <file>icons/bell-svgrepo-com.svg</file>
+    <file>icons/box-archive-svgrepo-com.svg</file>
+    <file>icons/caret-down-svgrepo-com.svg</file>
+    <file>icons/cb-close.svg</file>
+    <file>icons/cb-maximize.svg</file>
+    <file>icons/cb-minimize.svg</file>
+    <file>icons/cb-restore.svg</file>
+    <file>icons/chart-line-svgrepo-com.svg</file>
+    <file>icons/chart-mixed-svgrepo-com.svg</file>
+    <file>icons/circle-user-svgrepo-com.svg</file>
+    <file>icons/close-square-svgrepo-com.svg</file>
+    <file>icons/close-svgrepo-com.svg</file>
+    <file>icons/down-arrow-5-svgrepo-com.svg</file>
+    <file>icons/exit-svgrepo-com.svg</file>
+    <file>icons/fitwrap-low-resolution-logo-color-on-transparent-background.png</file>
+    <file>icons/floppy-disk-alt-svgrepo-com.svg</file>
+    <file>icons/floppy-disk-svgrepo-com.svg</file>
+    <file>icons/folder-arrow-down-svgrepo-com.svg</file>
+    <file>icons/folder-plus-svgrepo-com.svg</file>
+    <file>icons/gear-svgrepo-com.svg</file>
+    <file>icons/house-chimney-blank-svgrepo-com.svg</file>
+    <file>icons/logo_temp.svg</file>
+    <file>icons/map-location-pin-svgrepo-com.svg</file>
+    <file>icons/maximize-square-minimalistic-svgrepo-com.svg</file>
+    <file>icons/maximize-svgrepo-com.svg</file>
+    <file>icons/minimize-square-minimalistic-svgrepo-com.svg</file>
+    <file>icons/minimize-svgrepo-com.svg</file>
+    <file>icons/rotate-svgrepo-com.svg</file>
+    <file>icons/search-alt-2-svgrepo-com.svg</file>
+    <file>icons/trash-svgrepo-com.svg</file>
+    <file>icons/user-svgrepo-com.svg</file>
+    <file>icons/watch-alt-1-svgrepo-com.svg</file>
+    <file>icons/watch-alt-2-svgrepo-com.svg</file>
+    <file>icons/watch-alt-svgrepo-com.svg</file>
+    <file>icons/watch-svgrepo-com.svg</file>
+    <file>icons/xmark-svgrepo-com.svg</file>
+  </qresource>
+  <qresource prefix="watch icon">
+    <file>watch icons/garmin_forerunner_955.jpg</file>
+    <file>watch icons/HAUWEI-GT3-Pro.jpg</file>
+    <file>watch icons/Samsung-Watch-6-44mm-graphite.png</file>
+  </qresource>
+</RCC>
