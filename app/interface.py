@@ -1126,8 +1126,6 @@ class Interface(QMainWindow, Ui_MainWindow):
                 points_activity2) == 0:
             return
 
-            # Define a function to create and customize series, using index instead of time
-
         def create_series(points: list, color: str) -> QLineSeries:
             """
             Create and customize series for the chart.
