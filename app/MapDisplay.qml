@@ -41,11 +41,11 @@ Item {
             anchors.fill: parent
             property point lastPos
 
-            onPressed: {
+            onPressed: function (mouse) {
                 lastPos = Qt.point(mouse.x, mouse.y)
             }
 
-            onPositionChanged: {
+            onPositionChanged: function (mouse) {
                 if (mouse.buttons & Qt.LeftButton) {
                     let dx = mouse.x - lastPos.x
                     let dy = mouse.y - lastPos.y;
@@ -55,8 +55,8 @@ Item {
                 }
             }
 
-            onWheel: {
-                if (wheel.angleDelta.y > 0) {
+            onWheel: function (wheelEvent) {
+                if (wheelEvent.angleDelta.y > 0) {
                     map.zoomLevel += 1
                 } else {
                     map.zoomLevel -= 1

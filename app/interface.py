@@ -1,3 +1,5 @@
+import sys
+
 import defusedxml.ElementTree as ET
 import json
 import os
@@ -7,7 +9,8 @@ from pathlib import Path
 
 import gpxpy
 from PySide6.QtCharts import QChart, QLineSeries, QChartView, QValueAxis, QDateTimeAxis, QAreaSeries
-from PySide6.QtCore import Qt, QPropertyAnimation, QParallelAnimationGroup, QEasingCurve, QSize, QDateTime, QMetaObject
+from PySide6.QtCore import Qt, QPropertyAnimation, QParallelAnimationGroup, QEasingCurve, QSize, QDateTime, QMetaObject, \
+    QUrl
 from PySide6.QtGui import QIcon, QResizeEvent, QMouseEvent, QPixmap, QPainter, QColor, QPen, QBrush, QFont, \
     QLinearGradient, QGradient
 from PySide6.QtQuickWidgets import QQuickWidget

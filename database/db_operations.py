@@ -2,7 +2,9 @@ import functools
 import logging
 import base64
 import os
+import sys
 from datetime import datetime
+from pathlib import Path
 
 import bcrypt
 from PySide6.QtCore import QIODevice, QBuffer
@@ -15,7 +17,16 @@ from dotenv import load_dotenv
 from .db_init import User, Activity, Device
 
 # Load environment variables from the .env file
-load_dotenv()
+if getattr(sys, 'frozen', False):
+    # If opened from executable
+    application_path = Path(sys.executable).parent
+    env_path = application_path / '_internal' / '.env'
+else:
+    # If opened from terminal (for example. python app.py)
+    application_path = Path(__file__).parent
+    env_path = application_path / '.env'
+
+load_dotenv(dotenv_path=env_path)
 
 # Define the connection string
 connection_string = URL.create(
